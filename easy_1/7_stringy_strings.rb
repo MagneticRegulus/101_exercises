@@ -9,7 +9,7 @@
 # iterate over 1 to the string_length
 #   if the integer is odd, append '1' to bites
 #   if not, appen '0' to bites
-# evaluate y
+# evaluate bites
 
 def stringy(string_length)
   numbers = ''

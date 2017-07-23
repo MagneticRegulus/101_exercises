@@ -9,7 +9,7 @@ Exercises for Launch School's 101 - 109 courses
 02/07/2017 - Completed exercise 7
 05/07/2017 - Completed exercise 8
 23/07/2017 - Completed exercise 9
-Not completed exercise 10
+Not completed exercise 10 teeeest
 
 ### Easy 2
 

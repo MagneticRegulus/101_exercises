@@ -4,12 +4,16 @@ Exercises for Launch School's 101 - 109 courses
 
 ### Easy 1
 
-24/06/2017 - Completed exercises 1 - 5
-28/06/2017 - Completed exercise 6
-02/07/2017 - Completed exercise 7
-05/07/2017 - Completed exercise 8
-23/07/2017 - Completed exercise 9
-Not completed exercise 10 teeeest
+1. 24/06/2017
+2. 24/06/2017
+3. 24/06/2017
+4. 24/06/2017
+5. 24/06/2017
+6. 28/06/2017
+7. 02/07/2017
+8. 05/07/2017
+9. 23/07/2017
+10. 23/07/2017
 
 ### Easy 2
 

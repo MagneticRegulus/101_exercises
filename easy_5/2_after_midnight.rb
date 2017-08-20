@@ -21,31 +21,20 @@ p time_of_day(-4231) == "01:29" # => false
 
 puts '---'
 
+MIN_PER_HR = 60
+HR_PER_DAY = 24
+MIN_PER_DAY = MIN_PER_HR * HR_PER_DAY
+
 def time_of_day(int)
-  hour = (1440 + int) / 60
-  hour = hour.abs
-  until hour < 24
-    hour = hour - 24
-  end
-  min = int
-  if min > 0
-    until min < 60
-      min = min - 60
-    end
-  elsif min < 0
-    until min > 0
-      min = min + 60
-    end
-  else
-    min = 0
-  end
+  min = int % MIN_PER_DAY
+  hour, min = min.divmod(MIN_PER_HR)
   "#{'%02d' % hour}:#{'%02d' % min}"
 end
 
-p time_of_day(0) == "00:00" # => true
-p time_of_day(-3) == "23:57" # => false
-p time_of_day(35) == "00:35" # => true
-p time_of_day(-1437) == "00:03" # => false
-p time_of_day(3000) == "02:00" # => false
-p time_of_day(800) == "13:20" # => true
-p time_of_day(-4231) == "01:29" # => false
+p time_of_day(0) == "00:00"
+p time_of_day(-3) == "23:57"
+p time_of_day(35) == "00:35"
+p time_of_day(-1437) == "00:03"
+p time_of_day(3000) == "02:00"
+p time_of_day(800) == "13:20"
+p time_of_day(-4231) == "01:29"

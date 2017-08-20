@@ -57,7 +57,7 @@ Exercises for Launch School's 101 - 109 courses
 ### Easy 5
 
 1. 20/08/2017
-2. 20/08/2017 (in progress)
+2. 20/08/2017
 3.
 4.
 5.

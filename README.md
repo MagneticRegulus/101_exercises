@@ -91,12 +91,12 @@ Exercises for Launch School's 101 - 109 courses
 7. 03/09/2017
 8. 03/09/2017
 9. 03/09/2017
-10. 03/09/2017 (finish further exploration)
+10. 03/09/2017 / FE 13/09/2017
 
 ### Easy 8
 
-1.
-2.
+1. 13/09/2017
+2. 13/09/2017
 3.
 4.
 5.

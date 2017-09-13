@@ -27,9 +27,10 @@ p penultimate('Launch School is great!') == 'is'
 
 def middle_word(words, include_even: false)
   word_ary = words.split
+  return nil if include_even != true && word_ary.size.even?
   middle = (word_ary.size.to_f / 2).round
   puts "Word no. #{middle} for size of #{word_ary.size}"
-  word_ary[-middle]
+  word_ary[middle - 1]
 end
 
 p middle_word('One')

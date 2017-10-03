@@ -97,9 +97,9 @@ Exercises for Launch School's 101 - 109 courses
 
 1. 13/09/2017
 2. 13/09/2017
-3.
-4.
-5.
+3. 04/10/2017
+4. 04/10/2017
+5. 04/10/2017 FE in progress
 6.
 7.
 8.

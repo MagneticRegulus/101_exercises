@@ -32,6 +32,8 @@ p palindromes('knitting cassettes') == [
   'nittin', 'itti', 'tt', 'ss', 'settes', 'ette', 'tt'
 ]
 
+p palindromes('Madam') == ['ada'] # case sensitive
+
 puts '-----------------'
 
 # Further Exploration
@@ -41,21 +43,26 @@ def substrings(str)
   loop do
     break if chars.empty?
     chars.size.times do |idx|
-      substrings << chars[0..idx].join
+      substrings << chars[0..idx].join.downcase
     end
     chars.shift
   end
   substrings
 end
 
-def include_non
-  # create helper method to ignore non-alphas and case
+def include_non?(str)
+  non_alpha_num = str.chars.select { |char| char =~ /[^a-z0-9]/i}
+  !non_alpha_num.empty?
+end
+
+def palindrome?(str)
+  str == str.reverse && str.size > 1
 end
 
 def palindromes(str)
   all_substrings = substrings(str)
   all_substrings.select do |str|
-    str == str.reverse && str.size > 1
+    palindrome?(str) && !include_non?(str)
   end
 end
 
@@ -64,9 +71,10 @@ p palindromes('madam') == ['madam', 'ada']
 p palindromes('hello-madam-did-madam-goodbye') == [
   'll', 'madam', 'ada', 'did', 'madam', 'ada', 'oo'
 ]
-
-p palindromes('hello-madam-did-madam-goodbye')
-
 p palindromes('knitting cassettes') == [
   'nittin', 'itti', 'tt', 'ss', 'settes', 'ette', 'tt'
 ]
+p palindromes('Tacocat') == ['tacocat', 'acoca', 'coc']
+
+p palindromes('Tacocat')
+p palindromes('hello-madam-did-madam-goodbye')

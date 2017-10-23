@@ -134,7 +134,7 @@ Exercises for Launch School's 101 - 109 courses
 
 ### Medium 2
 
-1.
+1. 23/10/2017 - not complete
 2.
 3.
 4.

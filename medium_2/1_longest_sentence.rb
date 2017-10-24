@@ -24,3 +24,12 @@ end
 print_longest_sentence('1_file_example_1.txt')
 
 ### review solution
+
+text = File.read('1_file_example_1.txt')
+sentences = text.split(/\.|\?|!/)
+largest_sentence = sentences.max_by { |sentence| sentence.split.size }
+largest_sentence = largest_sentence.strip
+number_of_words = largest_sentence.split.size
+
+puts "#{largest_sentence}"
+puts "Containing #{number_of_words} words"

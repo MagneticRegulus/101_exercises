@@ -136,9 +136,9 @@ Exercises for Launch School's 101 - 109 courses
 
 1. 23/10/2017 - consider trying this one again
 2. 24/10/2017
-3.
-4.
-5.
+3. 08/11/2017
+4. 08/11/2017 - consider returning to further ex
+5. 08/11/2017
 6.
 7.
 8.

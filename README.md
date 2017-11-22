@@ -147,7 +147,7 @@ Exercises for Launch School's 101 - 109 courses
 
 ### Advanced 1
 
-1.
+1. 22/11/2017 incomplete
 2.
 3.
 4.
